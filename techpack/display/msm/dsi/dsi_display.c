@@ -4286,7 +4286,7 @@ static int dsi_display_clocks_init(struct dsi_display *display)
 			shadow->pixel_clk = dsi_clk;
 			continue;
 		}
-		
+
 		if (dsi_display_check_prefix(shadow_cphybyte, clk_name)) {
 			shadow_cphy->byte_clk = dsi_clk;
 			continue;
@@ -7559,7 +7559,7 @@ int dsi_display_get_modes(struct dsi_display *display,
 
 exit:
 	*out_modes = display->modes;
-    primary_display = display;
+    	primary_display = display;
 	rc = 0;
 
 error:
@@ -12014,7 +12014,7 @@ int dsi_display_unprepare(struct dsi_display *display)
 			       display->name, rc);
 	}
 
-		/* Remove additional vote added for pre_mode_switch_to_cmd */
+	/* Remove additional vote added for pre_mode_switch_to_cmd */
 	if (display->poms_pending &&
 			display->config.panel_mode == DSI_OP_VIDEO_MODE) {
 		display_for_each_ctrl(i, display) {
@@ -12111,4 +12111,3 @@ MODULE_PARM_DESC(dsi_display1,
 	"msm_drm.dsi_display1=<display node>:<configX> where <display node> is 'secondary dsi display node name' and <configX> where x represents index in the topology list");
 module_init(dsi_display_register);
 module_exit(dsi_display_unregister);
-
