@@ -1,4 +1,3 @@
-
 config TOUCHPANEL_SAMSUNG_S6SY761
 	default y
 	bool "TP Samsung s6sy761 IC enable or not for oem"

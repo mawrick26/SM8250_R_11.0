@@ -3,4 +3,3 @@
 #
 
 obj-$(CONFIG_TOUCHPANEL_ONEPLUS) += touch_interfaces.o
-

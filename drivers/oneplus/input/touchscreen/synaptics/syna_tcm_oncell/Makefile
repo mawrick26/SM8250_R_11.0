@@ -7,4 +7,3 @@
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM_ONCELL) += synaptics_tcm_oncell.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM_ONCELL) += synaptics_tcm_device.o
 obj-$(CONFIG_TOUCHPANEL_SYNAPTICS_TCM_ONCELL) += synaptics_tcm_recovery.o
-

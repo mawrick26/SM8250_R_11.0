@@ -4,4 +4,3 @@ obj-y += op_wlchg_rx.o
 obj-y += op_chargepump.o
 obj-y += bq2597x_charger.o
 obj-y += op_wlchg_policy.o
-

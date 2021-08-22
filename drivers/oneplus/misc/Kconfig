@@ -59,4 +59,3 @@ config REGULATOR_DEMO
 	default y
 	help
 	  we can use regulator demo to control regulator
-

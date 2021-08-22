@@ -1,3 +1,3 @@
-# oem device deriver
+# oem device driver
 source "drivers/oneplus/input/touchscreen/Kconfig"
 source "drivers/oneplus/input/fingerprint/Kconfig"

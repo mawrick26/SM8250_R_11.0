@@ -265,7 +265,7 @@ static int mp2650_get_vindpm_vol(void)
 
 static void mp2650_set_aicl_point(int vbatt_mv)
 {
-    struct mp2650_charger *chip = s_mcharger;
+	struct mp2650_charger *chip = s_mcharger;
 
 	if(chip->hw_aicl_point == 4440 && vbatt_mv > 4140) {
 		chip->hw_aicl_point = 4520;
